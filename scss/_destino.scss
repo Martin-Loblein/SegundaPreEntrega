@@ -1,101 +1,100 @@
 /* Destinos */
 
 .contenedorhome {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-  }
-  
-  .imghome {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1px;
-    border-radius: 100px;
-  }
-  
-  .contenedorIndumentaria {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-  }
-  
-  .Indumentaria {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    background-color: white;
-    border-radius: 5px;
-  }
-  
-  .ImgIndumentaria {
-    width: 100%;
-    height: 200px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    object-fit: contain;
-  }
-  
-  .Titulo {
-    color: black;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  
-  .Descripcion {
-    font-size: 18px;
-    font-weight: bold;
-    color: black;
-    text-align: center;
-  }
-  
-  .Precio {
-    font-size: 26px;
-    font-weight: bold;
-    color: purple;
-    text-align: center;
-  }
-  
-  .RopaBtn {
-    padding: 10px 20px;
-    background-color: purple;
-    color: #fafafa;
-    font-weight: bold;
-    border-radius: 8px;
-    border: none;
-    margin: 10px;
-    cursor: pointer;
-  }
-  
-  .imgPago {
-    width: 100%;
-    height: 450px;
-    border-radius: 1px;
-    margin-bottom: 1px;
-    object-fit: contain;
-  }
-  
-  .contenedorhome {
-    display: grid;
-    margin: auto;
-  }
-  
-  .h1home {
-    color: whitesmoke;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  
-  .imghome {
-    width: 100%;
-    height: 500px;
-    border-radius: 1px;
-    margin-bottom: 1px;
-    object-fit: contain;
-  }
-  
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.imghome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1px;
+  border-radius: 100px;
+}
+
+.contenedorIndumentaria {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.Indumentaria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.ImgIndumentaria {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  object-fit: contain;
+}
+
+.Titulo {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.Descripcion {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+.Precio {
+  font-size: 26px;
+  font-weight: bold;
+  color: purple;
+  text-align: center;
+}
+
+.RopaBtn {
+  padding: 10px 20px;
+  background-color: purple;
+  color: #fafafa;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.imgPago {
+  width: 100%;
+  height: 450px;
+  border-radius: 1px;
+  margin-bottom: 1px;
+  object-fit: contain;
+}
+
+.contenedorhome {
+  display: grid;
+  margin: auto;
+}
+
+.h1home {
+  color: whitesmoke;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.imghome {
+  width: 100%;
+  height: 500px;
+  border-radius: 1px;
+  margin-bottom: 1px;
+  object-fit: contain;
+}

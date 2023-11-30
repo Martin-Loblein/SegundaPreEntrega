@@ -1,44 +1,44 @@
 /* Header */
 
 @mixin anclas {
-    text-decoration: none;
-    color: whitesmoke;
+  text-decoration: none;
+  color: whitesmoke;
 }
 
 header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    border: 5px;
-    border-bottom: 1px solid whitesmoke;
-    background-color: black;
-    text-align: center;
-    padding: 5px 5px;
-    font-family: 'Roboto', sans-serif;
-    position: sticky;
-    top: 0;
-  }
-  
-  .logo {
-    width: 135px;
-    cursor: pointer;
-  }
-  
-  ul {
-    list-style: none;
-    display: inline-block;
-    margin: 0 50px;
-  }
-  
-  a {
-    @include anclas;
-    text-transform: uppercase;
-    font-weight: 600px;
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  li {
-    display: inline-block;
-    padding: 0 20px;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 5px;
+  border-bottom: 1px solid whitesmoke;
+  background-color: black;
+  text-align: center;
+  padding: 5px 5px;
+  font-family: 'Roboto', sans-serif;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  width: 135px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  display: inline-block;
+  margin: 0 50px;
+}
+
+a {
+  @include anclas;
+  text-transform: uppercase;
+  font-weight: 600px;
+  font-family: 'Roboto', sans-serif;
+}
+
+li {
+  display: inline-block;
+  padding: 0 20px;
+}
