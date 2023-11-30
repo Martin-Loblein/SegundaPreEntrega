@@ -9,7 +9,7 @@
 /* Body */
 
 body {
-    background-color: rgb(3, 3, 3);
+    background-image: linear-gradient(#000000, #434343) ;
 }
 
 
@@ -17,11 +17,11 @@ body {
 
 header {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
 
+    height: 200px;
     border: 5px;
-    margin: 5px;
     border-bottom: 1px solid whitesmoke;
     background-color: black;
     text-align: center;
@@ -35,6 +35,7 @@ header {
 .logo {
     width: 135px;
     cursor: pointer;
+
 }
 
 ul {
@@ -46,7 +47,7 @@ ul {
 a {
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 600px;
     color: whitesmoke;
     font-family: 'Roboto', sans-serif;
 }
@@ -60,8 +61,8 @@ li {
 /* Main */
 
 main{
-    margin: 20px;
-    padding: 20px;
+    margin: 5px;
+    padding: 5px;
 }
 
 h1 {
@@ -74,7 +75,7 @@ h1 {
 
 h3,
 h4{
-    color: rgb(158, 155, 155);
+    color: #928DAB;
     text-align: center;
     text-decoration: none;
     margin: 20px;
@@ -119,9 +120,8 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
-    background-color: black;
-    border-radius: 5px;
+    padding: 1px;
+    border-radius: 100px;
 }
 
 .contenedorIndumentaria {
@@ -181,9 +181,11 @@ p {
 }
 
 .imgPago {
-    display: block;
-    margin: 100px 250px;
-    border: 1px solid red;
+    width: 100%;
+    height: 450px;
+    border-radius: 1px;
+    margin-bottom: 1px;
+    object-fit: contain;
 }  
 
 .contenedorhome {
@@ -201,7 +203,7 @@ p {
 
 .imghome {
     width: 100%;
-    height: 450px;
+    height: 500px;
     border-radius: 1px;
     margin-bottom: 1px;
     object-fit: contain;
@@ -212,6 +214,11 @@ p {
 iframe {
     display: block;
     margin: auto;
+    width: 100%;
+    height: 450px;
+    border-radius: 1px;
+    margin-bottom: 1px;
+    object-fit: contain;
 }
 
 /* Contacto */
@@ -254,7 +261,7 @@ textarea {
 }
 
 .link {
-    color: rgb(63, 33, 71);
+    color: #928DAB;
     font-family: 'Roboto', sans-serif;
     text-decoration: underline;
 }
@@ -272,12 +279,13 @@ footer {
     bottom: 0;
     margin: 20px;
     padding: 20px;
-    border-top: 1px solid whitesmoke;
+    border-top: 1px solid white;
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
 
-@media (max-width: 1024px) and (min-width: 768px) {
+/*media*/
+@media (max-width: 1024px) and (min-width: 767px) {
     .contenedorIndumentaria {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -297,13 +305,6 @@ footer {
         flex-direction: column;
     }
 
-
- .imgpago {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-
-    }
 }
 
 @media (max-width: 767px) {
@@ -312,11 +313,10 @@ footer {
     }
 }
 
-@media (max-width:767px) {
+@media (max-width: 605px) {
     footer {
         flex-wrap: wrap;
     }
-
     header li a {
         display: none;
     }
@@ -331,8 +331,16 @@ footer {
     width: 90vw;
 }
 
-input {
+.input {
     width: 100%;
     padding-left: 0;
     padding-right: 0;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .ayuda {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
 }

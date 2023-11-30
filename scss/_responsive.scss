@@ -1,0 +1,60 @@
+/*media*/
+@media (max-width: 1024px) and (min-width: 767px) {
+    .contenedorIndumentaria {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .contenedorIndumentaria {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .ph1 {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 605px) {
+    footer {
+        flex-wrap: wrap;
+    }
+    header li a {
+        display: none;
+    }
+}
+
+.contacto1 {
+    flex-direction: column;
+    border: none;
+}
+
+.form {
+    width: 90vw;
+}
+
+.input {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .ayuda {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}
